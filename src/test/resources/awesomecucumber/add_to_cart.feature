@@ -2,6 +2,10 @@
 Feature: Add to cart 1
   mvn exec:java -Dexec.mainClass=io.cucumber.core.cli.Main
 
+  mvn exec:java -Dexec.classpathScope=test -Dexec.mainClass=io.cucumber.core.cli.Main -Dexec.args="--plugin pretty --plugin html:target/cucumber.html"
+
+  mvn exec:java -Dexec.classpathScope=test -Dexec.mainClass=io.cucumber.core.cli.Main
+
   Rule: Add from store
 
     Scenario Outline: Add one quantity to the cart 1
