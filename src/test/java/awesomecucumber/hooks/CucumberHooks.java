@@ -1,4 +1,4 @@
-package awesomecucumber;
+package awesomecucumber.hooks;
 
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.BeforeAll;
